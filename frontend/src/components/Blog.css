@@ -1,0 +1,54 @@
+.card{
+    margin: auto;
+    width: 60%;
+    margin-top: 5%;
+    padding: 3%;
+    box-shadow: 5px 5px 10px gray;
+    transition: 0.5s;
+    justify-content: center;
+    /* text-align: center; */
+}
+.user{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50% 50%;
+    background-color: lightblue;
+    display: inline;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.user-handle{
+    margin-bottom: 1rem;
+}
+/* .user-name{
+    margin-top: 5%;
+} */
+.edit-btns{
+    text-align: right;
+    /* float: right; */
+}
+.delete{
+    color:red;
+}
+.update{
+    color: green;
+}
+.delete, .update{
+    /* float: right; */
+    display: inline-block;
+
+    /* display: inline-block; */
+    /* margin-left: auto; */
+    /* background: none; */
+    /* border: 0; */
+    /* font-size: ; */
+}
+label{
+    font-weight: 600;
+}
+.card:hover{
+    box-shadow: 10px 10px 20px rgb(70, 70, 100);
+}
+p{
+    text-align: justify;
+}

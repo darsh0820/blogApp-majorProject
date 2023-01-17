@@ -1,0 +1,48 @@
+.login-div{
+    /* margin-top: 15%; */
+    border: 1px solid darkblue;
+    width:60%;
+    margin: auto;
+    top:20%;
+    left: 20%;
+    position: absolute;
+    padding: 5%;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    align-items: center;
+}
+/* @media (max-width: 480px) {
+    .carousel-div{
+        margin: 0;
+    }
+} */
+.carousel-div{
+    border: 1px solid darkblue;
+    width:80%;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    padding: 3%;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;}
+.form-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+input{
+    /* margin-top: 0.75%; */
+    text-align: center;
+    width: 100%;
+    margin-bottom: 8%;
+}
+h2{
+    text-align: center;
+    margin-bottom: 15%;
+}
+p{
+    text-align: center;
+}
