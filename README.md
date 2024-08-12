@@ -38,4 +38,25 @@ To run the application locally, follow these steps:
   cd ../frontend
   npm install
   ```
+4. **Set up Database connection:**
+   Add the MONGODB_URL and PORT in `backend/app.js` to connect.
+   ```javascript
+   mongoose.connect(MONGODB_URL)
+    .then(() => app.listen(PORT))
+    .then(() => console.log("Connected to the database and listening to localhost PORT"))
+    .catch((err) => console.log(err))
+   ```
 
+5. **Run the application:**
+   Start the backend server:
+   ```bash
+   cd backend
+   npm start
+   ```
+   Start the frontend development server:
+   ```bash
+   cd ../frontend
+   npm start
+   ```
+6. **Access the application:**
+   Open your browser and go to http://localhost:PORT to view the application.
